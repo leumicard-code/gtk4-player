@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.leumicard_code.AudioEngineV10</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+
+  <name>Audio Engine V10</name>
+  <summary>Audiophile music player with 10-band GStreamer equalizer and 64-band RTA spectrum</summary>
+
+  <developer id="io.github.leumicard_code">
+    <name>Shay Kadosh</name>
+  </developer>
+
+  <description>
+    <p>
+      Audio Engine V10 is an audiophile-grade desktop music player and digital signal processing suite built in Rust with pure GTK 4 and GStreamer.
+    </p>
+    <p>
+      Engineered for high fidelity, low resource consumption, and immediate responsiveness, it pairs hardware-accelerated playback with real-time acoustics analysis and distortion prevention.
+    </p>
+    <ul>
+      <li>10-band graphic studio equalizer (-12 dB to +12 dB) with instant presets (Warm Vintage, Bass Boost, Modern Clean, Vocal Enhancer, Club Master, Flat)</li>
+      <li>Smart anti-clipping auto-headroom protection that dynamically prevents digital distortion during heavy bass and gain boosts</li>
+      <li>Real-time 64-band logarithmic RTA spectrum visualizer with floating peak-hold indicators</li>
+      <li>Custom studio skins (Frost Light, Dark Elegance, Cyberpunk Neon, Warm Vintage Studio, Matrix Emerald, Tokyo Night)</li>
+      <li>Fast playlist and media library with live search filter, Drag and Drop support, and persistent state</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">io.github.leumicard_code.AudioEngineV10.desktop</launchable>
+
+  <branding>
+    <color type="primary" scheme_preference="light">#2563eb</color>
+    <color type="primary" scheme_preference="dark">#121826</color>
+  </branding>
+
+  <url type="homepage">https://github.com/leumicard-code/audio_engine_v10</url>
+  <url type="bugtracker">https://github.com/leumicard-code/audio_engine_v10/issues</url>
+  <url type="vcs-browser">https://github.com/leumicard-code/audio_engine_v10</url>
+
+  <provides>
+    <binary>gtkplayer</binary>
+  </provides>
+
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/leumicard-code/audio_engine_v10/main/assets/screenshot_main.png</image>
+      <caption>Main player window with 64-band logarithmic RTA spectrum visualizer and Frost Light skin</caption>
+    </screenshot>
+  </screenshots>
+
+  <content_rating type="oars-1.1" />
+
+  <releases>
+    <release version="10.0.0" date="2026-11-10">
+      <description>
+        <p>Production release of Audio Engine V10 powered by pure GTK 4 and GStreamer, offering hardware-accelerated graphics, 10-band equalizer studio, 64-band RTA spectrum visualizer with peak hold, six studio skins, and complete session persistence.</p>
+      </description>
+    </release>
+  </releases>
+</component>

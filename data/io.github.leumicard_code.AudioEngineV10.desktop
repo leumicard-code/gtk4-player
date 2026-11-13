@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Audio Engine V10
+GenericName=Music Player & DSP Studio
+Comment=Audiophile music player with 10-band GStreamer graphic equalizer and 64-band RTA spectrum
+Exec=gtkplayer %F
+Icon=io.github.leumicard_code.AudioEngineV10
+Terminal=false
+Categories=AudioVideo;Audio;Player;GTK;
+Keywords=audio;music;player;equalizer;dsp;flac;mp3;spectrum;rta;
+MimeType=audio/mpeg;audio/flac;audio/x-flac;audio/x-wav;audio/wav;audio/ogg;audio/mp4;audio/aac;audio/opus;
+StartupNotify=true
+StartupWMClass=io.github.leumicard_code.gtkplayer
